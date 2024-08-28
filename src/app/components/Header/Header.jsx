@@ -32,7 +32,7 @@ function Header() {
 
   return (
     <>
-      <div className={style.headermain}>
+      <div className={`${style.headermain} font-diatype font-light`}>
         It's time to enter the arena 📡 - Sign up for the Solana Radar hackathon
         now!
       </div>
@@ -44,7 +44,7 @@ function Header() {
           <nav>
             <div className="flex gap-5">
               {Menu.map((item,index)=>
-                <a className={`cursor-pointer`}>
+                <a className={`cursor-pointer font-diatype`}>
                 <div className="inline-flex gap-[32px]">
                     <div>
                         {item.name}

@@ -4,19 +4,25 @@
 
 @font-face {
   font-family: 'Diatype';
-  src: url('/fonts/Diatype-Regular.woff2') format('woff2'),
-       url('/fonts/Diatype-Regular.woff') format('woff');
-  font-weight: 400;
+  src: url('/fonts/ABCDiatype-Light.woff2') format('woff2');
+  font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Diatype';
-  src: url('/fonts/Diatype-Bold.woff2') format('woff2'),
-       url('/fonts/Diatype-Bold.woff') format('woff');
+  src: url('/public/assets/fonts/ABCDiatype-Medium.c86deac8.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Diatype';
+  src: url('/public/assets/fonts/ABCDiatype-Bold.f2bf1e1c.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
 }
+
 
 body {
   display: block;
