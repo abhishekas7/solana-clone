@@ -2,31 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Font definitions */
 @font-face {
   font-family: 'Diatype';
-  src: url('/fonts/ABCDiatype-Light.woff2') format('woff2');
+  src: url('/assets/fonts/ABCDiatype-Light.woff2') format('woff2'),
+       url('/assets/fonts/ABCDiatype-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Diatype';
-  src: url('/public/assets/fonts/ABCDiatype-Medium.c86deac8.woff2') format('woff2');
+  src: url('/assets/fonts/ABCDiatype-Medium.woff2') format('woff2'),
+       url('/assets/fonts/ABCDiatype-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Diatype';
-  src: url('/public/assets/fonts/ABCDiatype-Bold.f2bf1e1c.woff2') format('woff2');
+  src: url('/assets/fonts/ABCDiatype-Bold.woff2') format('woff2'),
+       url('/assets/fonts/ABCDiatype-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
 }
 
-
+/* Global styles */
 body {
   display: block;
-  margin: 0px;
-  font-family: 'Inter', sans-serif;
+  margin: 0;
+  font-family: 'Inter', sans-serif; /* Fallback to Inter if Diatype is not loaded */
   background-color: #121212;
 }
