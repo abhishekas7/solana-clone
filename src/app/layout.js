@@ -22,11 +22,11 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </Head>
-      <body>
+      <body className=" overflow-x-hidden font-diatype">
         <Header/>
         {children}
         <Footer />
-        </body>
+      </body>
     </html>
   );
 }

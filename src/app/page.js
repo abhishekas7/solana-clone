@@ -1,8 +1,14 @@
 import React from 'react'
+import Banner from './components/Banner/Banner'
 
 function page() {
   return (
-    <div>page</div>
+    <div className='relative w-full overflow-visible'>
+      <div className='w-full m-0'>
+        <Banner />
+      </div>
+    </div>
+
   )
 }
 
