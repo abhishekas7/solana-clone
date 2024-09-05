@@ -10,3 +10,18 @@
     position: relative;
     color: transparent;
 }
+
+.listedCompanies{
+    position: relative;
+    color: #64a9f2;
+    text-transform: uppercase;
+}
+.imagesizes{
+    position: relative;
+    z-index: 1000;
+    gap: 46px;
+    height: -114px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,33 @@
+.solidbutton {
+    background-image: linear-gradient(90deg, #c766ef, #7928d2 51.04%, #2b0c52);
+    line-height: 28px;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.solidbutton:hover {
+    background-color: #005bb5;
+}
+
+.transparentbutton {
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.transparentbutton:hover {
+    background-color: #0070f3;
+    color: white;
+    cursor: pointer;
+}
