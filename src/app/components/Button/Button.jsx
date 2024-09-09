@@ -1,10 +1,10 @@
 import React from 'react'
 import style from './Button.module.css'
 
-function Button({type="solid",children}) {
+function Button({type="solid",children,ButtonStyle}) {
     
   return (
-    <button className={`${type == "solid" ? style.solidbutton : style.transparentbutton }`}>{children}</button>
+    <button style={ButtonStyle} className={`${type == "solid" ? style.solidbutton : style.transparentbutton }`}>{children}</button>
   )
 }
 

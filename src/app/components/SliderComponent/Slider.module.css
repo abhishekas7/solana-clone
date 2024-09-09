@@ -1,0 +1,24 @@
+.SlideContainer{
+    width: 1152px;
+    height: auto; 
+}
+
+.SlideContent{
+    background-color: var(--color2);
+    width: 1056px;
+    color: #9d9dae;
+    padding: 40px;
+    text-align: start;
+    display:flex !important;
+    gap:32px;
+    
+}
+
+.ImageSection{
+}
+
+.Contents{
+    display: flex;
+    flex-direction: column;
+}
+
